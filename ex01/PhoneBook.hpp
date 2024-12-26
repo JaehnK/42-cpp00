@@ -1,16 +1,19 @@
+#ifndef PhoneBook_H
+#define PhoneBook_H
+#include "ex01.hpp"
+
 class PhoneBook
 {
 private:
-	/* data */
+	Contact array[8];
+	int	CurrentIdx;
+
 public:
-	PhoneBook(/* args */);
+	PhoneBook();
 	~PhoneBook();
+	
+	void ADD();
+	void SEARCH();
 };
 
-PhoneBook::PhoneBook(/* args */)
-{
-}
-
-PhoneBook::~PhoneBook()
-{
-}
+#endif
