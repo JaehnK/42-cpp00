@@ -3,6 +3,7 @@ CPP_FLAGS = -Wall -Wextra -Werror -std=c++98 -g
 
 SRCS =	Contact.cpp \
 		PhoneBook.cpp \
+		PhoneBook_utils.cpp \
 		main.cpp
 
 HEADR = ex01.hpp \
