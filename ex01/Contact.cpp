@@ -39,6 +39,7 @@ void	Contact::SetIdx(int idx)
 {
 	Idx = idx;
 };
+
 const std::string& Contact::GetFirstName() const
 {
 	return (FirstName);
